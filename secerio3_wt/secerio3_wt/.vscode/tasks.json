@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Student Portal on Tomcat",
+			"type": "shell",
+			"command": "C:\\tomcat\\apache-tomcat-10.1.61\\bin\\catalina.bat",
+			"args": [
+				"run"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
